@@ -1,3 +1,3 @@
 init:
-	go mod download
+	go mod tidy
 	go install github.com/beego/bee
